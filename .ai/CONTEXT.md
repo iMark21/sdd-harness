@@ -40,7 +40,7 @@
 - [x] CI covers docs-only warning, conventional layout silence, nested Android, iOS, Go, blocked code-only commits, and spec+code commits.
 
 ### F4 — Public migration (closed 2026-05-15)
-- [x] SH-F4-001: security audit passed (no secrets, no co-authored, no internal path leaks, all commits authored as `marques.jm@icloud.com`)
+- [x] SH-F4-001: security audit passed (no secrets, no co-authored, no internal path leaks, all commits authored with the correct git author identity)
 - [x] Commit timestamps sanitized via rebase + cherry-pick + `--amend --date` (all 3 commits shifted to late-evening/early-night)
 - [x] GitHub repo renamed: `iMark21/agentlayer` → `iMark21/sdd-harness` (GitHub serves redirects from the old URL)
 - [x] Local origin URL updated
